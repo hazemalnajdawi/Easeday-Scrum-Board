@@ -1,121 +1,91 @@
 # Easeday-Scrum-Board
 This repository manages the Scrum Board for the Easeday Capstone Prototype. It includes project planning, sprint tracking, and backlog management.
-# Easeday Scrum Board - GitHub Repository
 
-## **Project Overview**
-This repository is created to manage the **Scrum Board** for our **Easeday Capstone Prototype**. It helps us to:
-- Plan and track project tasks
-- Organize sprints and weekly progress
-- Manage backlog and task assignments
-- Follow Agile Scrum methodology
+Easeday Scrum Board - GitHub Repository
+Project Overview
+This repository is dedicated to managing the Scrum Board for the Easeday Capstone Prototype. It serves as a central hub for task management, sprint planning, and backlog tracking to ensure an organized and efficient development process. The project follows an Agile Scrum methodology to enhance collaboration and maintain a structured workflow.
 
-## **Project Structure**
-- **GitHub Projects Board** – Used for Scrum task tracking
-- **Backlog** – List of all tasks for the project
-- **Sprints** – Weekly development cycles
-- **PPP Reports** – Weekly updates on progress
-- **Code Repository** – Stores and manages development files
+Objectives:
+Organize project tasks efficiently using GitHub Projects.
+Structure sprints to align with project goals and deadlines.
+Assign and track tasks based on team responsibilities.
+Ensure weekly progress updates through PPP Reports.
+Maintain a well-documented and transparent development workflow.
+Project Structure
+GitHub Projects Board – Used to track all tasks in an Agile framework.
+Backlog – Contains all project tasks before they are assigned to a sprint.
+Sprints – Weekly development cycles focused on specific deliverables.
+PPP Reports – Weekly progress updates for tracking project milestones.
+Code Repository – Stores and manages the development files.
+Setting Up the Scrum Board
+1. Creating the Scrum Board
+Navigate to the repository and select Projects.
+Click New Project and choose Board View.
+Name the project "Easeday Scrum Board".
+Add the following columns for task organization:
+Backlog – Contains all planned tasks for the project.
+To Do – Tasks that have been selected for the current sprint.
+In Progress – Tasks currently being worked on.
+Review – Tasks requiring feedback or testing before completion.
+Done – Successfully completed tasks.
+2. Adding Tasks to the Backlog
+The Backlog serves as a list of all tasks identified for the project. These tasks will be moved into active sprints as needed.
 
----
+Example Tasks:
+Task Name	Estimated Hours	Notes
+Research competitors (Google Calendar, Outlook)	6h	Identify features and analyze competitors.
+UI/UX Wireframe Design	10h	Develop initial interface mockups.
+Firebase Authentication Setup	8h	Implement Google OAuth login system.
+MySQL Database Setup	6h	Define and configure the database schema.
+Google Calendar API Integration	12h	Enable real-time synchronization.
+Smart Scheduling Algorithm	10h	Implement a task prioritization system.
+Guidelines:
 
-## **Setting Up the Scrum Board**
-### **1. Creating the Scrum Board**
-1. Open the repository and go to **Projects**.
-2. Click **New Project** → Choose **Board View**.
-3. Name it **"Easeday Scrum Board"**.
-4. Add the following columns:
-   - **Backlog** – All tasks that need to be completed
-   - **To Do** – Tasks chosen for the sprint
-   - **In Progress** – Tasks currently being worked on
-   - **Review** – Tasks awaiting feedback
-   - **Done** – Completed tasks
+Tasks should be logically sequenced (e.g., UI design before front-end development).
+Tasks should only be assigned once they are part of an active sprint.
+Estimated time should be recorded in hours, not days.
+3. Organizing Weekly Sprints
+Each sprint follows a one-week cycle, aligning with our weekly team meetings.
 
----
+Sprint Schedule:
+Sprint #	Dates	Tasks Included
+Sprint 1	Feb 28 - Mar 6	Research, UI Wireframes, Initial Backend Setup
+Sprint 2	Mar 7 - Mar 13	Authentication, Database Setup
+Sprint 3	Mar 14 - Mar 20	Google Calendar API Integration, UI Refinements
+Sprint 4	Mar 21 - Mar 27	Notification System, Task Scheduling Features
+Sprint 5	Mar 28 - Apr 3	Testing & Debugging
+Sprint 6	Apr 4 - Apr 10	Final Presentation & Prototype Improvements
+Sprint Guidelines:
 
-### **2. Adding Tasks to the Backlog**
-The **Backlog** contains all tasks for the project, which will be moved into sprints as needed.
+At the beginning of each sprint, tasks should be moved from Backlog → To Do.
+Tasks should be assigned to one team member to ensure accountability.
+Each team member should have an estimated workload of approximately 6 hours per week.
+4. Assigning and Managing Sprint Tasks
+During each sprint, tasks progress through the following stages:
 
-#### **Example Tasks:**
-| Task Name | Estimated Hours | Notes |
-|-----------|----------------|-------|
-| Research competitors (Google Calendar, Outlook) | 6h | Identify features and weaknesses |
-| UI/UX Wireframe Design | 10h | Initial interface mockups |
-| Firebase Authentication Setup | 8h | Implement Google OAuth login |
-| MySQL Database Setup | 6h | Define and configure database schema |
-| Google Calendar API Integration | 12h | Enable real-time sync |
-| Smart Scheduling Algorithm | 10h | Implement task prioritization |
+Move tasks from Backlog → To Do at the start of the sprint.
+Assign one team member per task to ensure accountability.
+Task Status Updates:
+To Do – Task is ready to be worked on.
+In Progress – Work has started on the task.
+Review – Task is pending feedback or testing.
+Done – Task has been successfully completed.
+Task Priority Levels:
 
-**Important Rules:**
-- Tasks should be **logically ordered** (e.g., UI design before front-end coding).
-- Tasks should **only be assigned when moved into a sprint**.
-- Time estimates must be in **hours**, not days.
+High Priority – Critical tasks necessary for project functionality.
+Medium Priority – Features that enhance project usability.
+Low Priority – Minor improvements or refinements.
+5. Keeping the Scrum Board Updated
+The Scrum Board should be reviewed and updated weekly.
+Completed tasks should be moved to the Done column.
+Team members should log updates regularly to ensure task tracking remains accurate.
+Updates from the board will be used to generate PPP Reports.
+6. Inviting the Professor to View the Scrum Board
+The professor must be invited to access and review the Scrum Board.
 
----
+Steps to Invite:
 
-### **3. Organizing Weekly Sprints**
-Sprints are **one week long**, matching our weekly meetings.
-
-#### **Sprint Schedule:**
-| Sprint # | Dates | Tasks Included |
-|----------|------------|----------------|
-| Sprint 1 | Feb 28 - Mar 6 | Research, UI Wireframes, Initial Backend Setup |
-| Sprint 2 | Mar 7 - Mar 13 | Authentication, Database Setup |
-| Sprint 3 | Mar 14 - Mar 20 | Google Calendar API Integration, UI Refinements |
-| Sprint 4 | Mar 21 - Mar 27 | Notification System, Task Scheduling Features |
-| Sprint 5 | Mar 28 - Apr 3 | Testing & Debugging |
-| Sprint 6 | Apr 4 - Apr 10 | Final Presentation & Prototype Improvements |
-
-**Sprint Rules:**
-- Move tasks from **Backlog → To Do** at the beginning of each sprint.
-- Assign tasks **only once they are in a sprint**.
-- Each team member should have **around 6 hours of work per week**.
-
----
-
-### **4. Assigning and Managing Sprint Tasks**
-During each sprint, tasks are moved and updated as follows:
-1. Move tasks from **Backlog** → **To Do**.
-2. Assign **one team member per task**.
-3. Update task status:
-   - **To Do** – Not started yet
-   - **In Progress** – Currently being worked on
-   - **Review** – Needs feedback/testing
-   - **Done** – Completed
-
-**Task Priority Levels:**
-- **High Priority** – Critical features
-- **Medium Priority** – Important enhancements
-- **Low Priority** – Minor adjustments
-
----
-
-### **5. Keeping the Scrum Board Updated**
-- Review and update the Scrum Board **weekly**.
-- Move completed tasks to **Done**.
-- Ensure all team members **log updates regularly**.
-- The Scrum Board will be used for our **weekly PPP reports**.
-
----
-
-### **6. Inviting Our Professor to View the Scrum Board**
-The professor needs to be invited to review our board.
-
-**Steps to Invite:**
-1. Open the **GitHub Project Board**.
-2. Click **Share → Invite Collaborator**.
-3. Enter the **professor’s Sheridan email**.
-4. Set permissions to **Read-Only**.
-
----
-
-## **Final Checklist**
-- **Scrum Board Created** using GitHub Projects
-- **Backlog Fully Populated** with all required tasks
-- **Weekly Sprints Set Up** to track progress
-- **Tasks Assigned and Monitored** correctly
-- **Professor Granted Access** for review
-- **Board Updated Weekly** for accurate tracking
-
-Our Scrum Board is now fully functional!
-
-
+Open the GitHub Project Board.
+Click Share → Invite Collaborator.
+Enter the professor’s Sheridan email.
+Set permissions to Read-Only.
