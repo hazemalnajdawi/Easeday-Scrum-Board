@@ -18,6 +18,7 @@ Sprints – Weekly development cycles focused on specific deliverables.
 PPP Reports – Weekly progress updates for tracking project milestones.
 Code Repository – Stores and manages the development files.
 Setting Up the Scrum Board
+
 1. Creating the Scrum Board
 Navigate to the repository and select Projects.
 Click New Project and choose Board View.
@@ -28,22 +29,35 @@ To Do – Tasks that have been selected for the current sprint.
 In Progress – Tasks currently being worked on.
 Review – Tasks requiring feedback or testing before completion.
 Done – Successfully completed tasks.
-2. Adding Tasks to the Backlog
+
+3. Adding Tasks to the Backlog
 The Backlog serves as a list of all tasks identified for the project. These tasks will be moved into active sprints as needed.
 
-Example Tasks:
-Task Name	Estimated Hours	Notes
-Research competitors (Google Calendar, Outlook)	6h	Identify features and analyze competitors.
-UI/UX Wireframe Design	10h	Develop initial interface mockups.
-Firebase Authentication Setup	8h	Implement Google OAuth login system.
-MySQL Database Setup	6h	Define and configure the database schema.
-Google Calendar API Integration	12h	Enable real-time synchronization.
-Smart Scheduling Algorithm	10h	Implement a task prioritization system.
-Guidelines:
+### ✅ Example Tasks
 
-Tasks should be logically sequenced (e.g., UI design before front-end development).
-Tasks should only be assigned once they are part of an active sprint.
-Estimated time should be recorded in hours, not days.
+| Task Name                                     | Estimated Hours | Notes                                                    |
+|----------------------------------------------|------------------|----------------------------------------------------------|
+| Research: Firebase & Google Calendar APIs     | 4h               | Initial technical exploration for integration feasibility |
+| UI/UX Wireframe Design                        | 10h              | Early design mockups including task list and calendar UI |
+| Firebase Authentication (Email + Google)      | 8h               | Set up login options and secure token handling          |
+| MySQL Database Schema Design                  | 6h               | Define schema for tasks, breaks, user settings           |
+| Google Calendar Sync (OAuth + Real-time)      | 10h              | Handle authentication and auto-syncing with Google       |
+| Task Management (CRUD + Reminders)            | 8h               | Allow users to create, edit, and get reminders on tasks  |
+| Smart Notifications (Traffic-Based)           | 7h               | Notify users based on travel time and deadlines          |
+| Morning Summary Generation                    | 5h               | Deliver daily brief of top-priority events/tasks         |
+| Relaxed Day Detection                         | 5h               | Analyze event density and notify users on light days     |
+| Final Testing & API Documentation             | 9h               | End-to-end testing, bug fixes, and full backend docs     |
+
+---
+
+### 📌 Guidelines
+
+- Tasks should be logically sequenced (e.g., design before development).
+- Tasks must be assigned **only** when part of an active sprint.
+- Estimated time should always be recorded in **hours**, not days.
+- All tasks must align with the defined sprint goals and assignees.
+
+
 3. Organizing Weekly Sprints
 Each sprint follows a one-week cycle, aligning with our weekly team meetings.
 
@@ -64,6 +78,7 @@ Sprint Guidelines:
 At the beginning of each sprint, tasks should be moved from Backlog → To Do.
 Tasks should be assigned to one team member to ensure accountability.
 Each team member should have an estimated workload of approximately 6 hours per week.
+
 4. Assigning and Managing Sprint Tasks
 During each sprint, tasks progress through the following stages:
 
@@ -79,6 +94,7 @@ Task Priority Levels:
 High Priority – Critical tasks necessary for project functionality.
 Medium Priority – Features that enhance project usability.
 Low Priority – Minor improvements or refinements.
+
 5. Keeping the Scrum Board Updated
 The Scrum Board should be reviewed and updated weekly.
 Completed tasks should be moved to the Done column.
