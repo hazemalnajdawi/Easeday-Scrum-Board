@@ -47,14 +47,18 @@ Estimated time should be recorded in hours, not days.
 3. Organizing Weekly Sprints
 Each sprint follows a one-week cycle, aligning with our weekly team meetings.
 
-Sprint Schedule:
-Sprint #	Dates	Tasks Included
-Sprint 1	Feb 28 - Mar 6	Research, UI Wireframes, Initial Backend Setup
-Sprint 2	Mar 7 - Mar 13	Authentication, Database Setup
-Sprint 3	Mar 14 - Mar 20	Google Calendar API Integration, UI Refinements
-Sprint 4	Mar 21 - Mar 27	Notification System, Task Scheduling Features
-Sprint 5	Mar 28 - Apr 3	Testing & Debugging
-Sprint 6	Apr 4 - Apr 10	Final Presentation & Prototype Improvements
+### 🗓 Sprint Schedule
+
+| Sprint | Dates            | Focus Areas                                                                 |
+|--------|------------------|-----------------------------------------------------------------------------|
+| 1      | Mar 4 – Mar 10   | Project Setup & Infrastructure (React Native, Spring Boot, MySQL, Firebase), Splash Screen & App Icon Design |
+| 2      | Mar 11 – Mar 17  | Firebase Authentication, MySQL Schema Design, Calendar Sync Preparation, Basic Testing & Light UI Tweaks |
+| 3      | Mar 18 – Mar 24  | Backend API Development, Task Management (Functionality & UI)              |
+| 4      | Mar 25 – Mar 31  | Calendar Synchronization, UI/UX Improvements, Additional Testing, Light Research |
+| 5      | Apr 1 – Apr 7    | Smart Notifications (Traffic-Based), Morning Summaries, Testing & Documentation |
+| 6      | Apr 8 – Apr 14   | Micro-Break Suggestions, Relaxed Day Detection, Final Testing, End-to-End Debugging, Final UI Polish |
+
+
 Sprint Guidelines:
 
 At the beginning of each sprint, tasks should be moved from Backlog → To Do.
